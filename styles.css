@@ -38,4 +38,72 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #F5
+    color: #F5F0E6; /* Creamy Beige */
+}
+
+/* Sections */
+section {
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #FFFFFF; /* Soft White */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(107, 66, 38, 0.15); /* Deep Earth shadow */
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #6B4226; /* Deep Earth */
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    border-bottom: 3px solid #A3B18A; /* Muted Sage underline */
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: #D97D54; /* Terracotta accent */
+}
+
+/* Links */
+a {
+    color: #D97D54; /* Warm Terracotta */
+}
+
+a:hover {
+    color: #6B4226; /* Deep Earth */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    background-color: #A3B18A; /* Muted Sage */
+    color: #FFFFFF; /* Soft White */
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+/* Responsive Design (RWD) */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    header {
+        padding: 15px;
+    }
+}
