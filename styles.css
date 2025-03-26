@@ -132,3 +132,13 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* Family Photo Styling */
+.family-photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 25px auto 15px auto;
+    box-shadow: 0 4px 8px rgba(154, 132, 120, 0.2); /* Warm Earth shadow */
+}
