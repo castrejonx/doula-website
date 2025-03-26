@@ -7,19 +7,19 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    line-height: 1.7;
-    background-color: #F5F0E6; /* Creamy Beige */
-    color: #4A4A4A; /* Earthy Charcoal */
+    line-height: 1.8;
+    background-color: #FAF8F5; /* Soft Off-White */
+    color: #3F3F3F; /* Gentle Charcoal */
     padding: 10px;
 }
 
 /* Header & Navigation */
 header {
-    background-color: #D97D54; /* Warm Terracotta */
+    background-color: #D1C7BC; /* Soft Taupe */
     padding: 20px;
     text-align: center;
     border-radius: 8px;
-    color: #FFFFFF; /* Soft White */
+    color: #FFFFFF; /* Pure White */
 }
 
 nav ul {
@@ -33,12 +33,12 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #FFFFFF; /* Soft White */
+    color: #FFFFFF; /* Pure White */
     font-weight: bold;
 }
 
 nav ul li a:hover {
-    color: #F5F0E6; /* Creamy Beige */
+    color: #FAF8F5; /* Soft Off-White */
 }
 
 /* Sections */
@@ -46,14 +46,15 @@ section {
     padding: 25px;
     margin: 20px auto;
     max-width: 800px;
-    background-color: #FFFFFF; /* Soft White */
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(107, 66, 38, 0.15); /* Deep Earth shadow */
+    background-color: #FFFFFF; /* Pure White */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(154, 132, 120, 0.1); /* Warm Earth shadow */
+    border: 1px solid #D9E2DD; /* Pale Sage Border */
 }
 
 /* Headings */
 h1, h2, h3 {
-    color: #6B4226; /* Deep Earth */
+    color: #9A8478; /* Warm Earth */
     margin-bottom: 15px;
 }
 
@@ -63,22 +64,22 @@ h1 {
 
 h2 {
     font-size: 1.8rem;
-    border-bottom: 3px solid #A3B18A; /* Muted Sage underline */
+    border-bottom: 3px solid #D9E2DD; /* Pale Sage underline */
     padding-bottom: 5px;
 }
 
 h3 {
     font-size: 1.4rem;
-    color: #D97D54; /* Terracotta accent */
+    color: #9A8478; /* Warm Earth */
 }
 
 /* Links */
 a {
-    color: #D97D54; /* Warm Terracotta */
+    color: #9A8478; /* Warm Earth */
 }
 
 a:hover {
-    color: #6B4226; /* Deep Earth */
+    color: #3F3F3F; /* Gentle Charcoal */
 }
 
 /* Footer */
@@ -86,10 +87,22 @@ footer {
     text-align: center;
     padding: 15px;
     font-size: 0.9rem;
-    background-color: #A3B18A; /* Muted Sage */
-    color: #FFFFFF; /* Soft White */
+    background-color: #D9E2DD; /* Pale Sage */
+    color: #3F3F3F; /* Gentle Charcoal */
     border-radius: 8px;
     margin-top: 25px;
+}
+
+/* Scroll Animation (Fade-In-Up Effect) */
+.hidden {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* Responsive Design (RWD) */
@@ -107,6 +120,7 @@ footer {
         padding: 15px;
     }
 }
+
 
 /* Scroll Animation (Fade-In-Up Effect) */
 .hidden {
