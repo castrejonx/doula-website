@@ -1,7 +1,7 @@
 // script.js
 
 document.addEventListener('DOMContentLoaded', () => {
-    const sections = document.querySelectorAll('section');
+    const animatedElements = document.querySelectorAll('section, .story-section');
 
     const observerOptions = {
         root: null,
@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, observerOptions);
 
-    sections.forEach(section => {
-        section.classList.add('hidden');
-        observer.observe(section);
+    animatedElements.forEach(element => {
+        element.classList.add('hidden');
+        observer.observe(element);
     });
 });
