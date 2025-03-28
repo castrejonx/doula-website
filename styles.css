@@ -158,6 +158,10 @@ footer {
     flex-direction: row-reverse;
 }
 
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+
 .story-photo {
     width: 250px;
     height: auto;
