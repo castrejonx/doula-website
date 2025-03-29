@@ -119,6 +119,27 @@ footer {
     header {
         padding: 15px;
     }
+
+    /* Fix My Story responsive layout here: */
+    .story-section, .story-section.reverse {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .story-photo {
+        width: 100%; /* takes full available width */
+        max-width: 250px; /* maintains reasonable max size */
+        margin-bottom: 15px;
+    }
+
+    .story-text {
+        width: 100%;
+    }
+
+    blockquote {
+        text-align: left; /* improves readability on small devices */
+        margin: 15px auto;
+    }
 }
 
 /* Scroll Animation (Fade-In-Up Effect) */
