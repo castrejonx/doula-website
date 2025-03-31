@@ -120,11 +120,14 @@ footer {
         padding: 15px;
     }
 
-    /* Fix My Story responsive layout here: */
-    .story-section, .story-section.reverse {
-        flex-direction: column;
-        text-align: center;
+    /* My Story responsive layout */
+    .story-section,
+    .story-section.reverse {
+    flex-direction: column !important;
+    align-items: center;
+    text-align: center;
     }
+
 
     .story-photo {
         width: 100%; /* takes full available width */
