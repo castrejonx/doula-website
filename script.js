@@ -1,7 +1,7 @@
 // script.js
 
 document.addEventListener('DOMContentLoaded', () => {
-    const animatedElements = document.querySelectorAll('section, .story-section');
+    const animatedElements = document.querySelectorAll('section, .story-section, .hero-content');
 
     const observerOptions = {
         root: null,
