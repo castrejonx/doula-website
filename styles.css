@@ -287,19 +287,32 @@ blockquote {
 
 /* Mobile Responsive */
 @media (max-width: 600px) {
+    .hero-section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 20px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+  
     .hero-content {
         width: 100%;
         max-width: 100%;
-        padding: 0;
         margin: 0 auto;
+        padding: 0;
         text-align: center;
         box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+  
     .hero-content h1 {
         font-size: 1.8rem;
     }
-
+  
     .hero-content p {
         font-size: 1.1rem;
     }
-}
+  }  
