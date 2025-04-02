@@ -219,7 +219,7 @@ blockquote {
 .cta-button {
     text-decoration: none;
     color: #FFFFFF;
-    background-color: #9A8478; /* warm earth tone */
+    background-color: #8BA88E; /* soft sage green */
     padding: 10px 20px;
     border-radius: 25px;
     font-weight: bold;
@@ -227,7 +227,7 @@ blockquote {
 }
 
 .cta-button:hover {
-    background-color: #D1C7BC; /* soft taupe */
+    background-color: #A6BAA0; /* lighter sage green on hover */
 }
 
 /* Hero Section */
