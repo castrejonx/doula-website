@@ -43,13 +43,13 @@ nav ul li a:hover {
 
 /* Sections */
 section {
-    padding: 25px;
-    margin: 20px auto;
-    max-width: 800px;
-    background-color: #FFFFFF; /* Pure White */
+    width: 100%;
+    padding: 40px 5%;
+    margin: 0;
+    background-color: #FFFFFF;
     border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(154, 132, 120, 0.1); /* Warm Earth shadow */
-    border: 1px solid #D9E2DD; /* Pale Sage Border */
+    box-shadow: 0 4px 8px rgba(154, 132, 120, 0.1);
+    border: 1px solid #D9E2DD;
 }
 
 /* Headings */
