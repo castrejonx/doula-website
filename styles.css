@@ -271,6 +271,8 @@ blockquote {
     animation: fadeInUp 1.2s ease-out forwards;
     opacity: 0;
     transform: translateY(30px);
+    text-align: center;
+    margin: 0 auto;
 }
 
 /* Hero Animation */
