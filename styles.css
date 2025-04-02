@@ -242,6 +242,8 @@ blockquote {
     text-align: center;
     color: #fff;
     z-index: 1;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .hero-video {
@@ -285,6 +287,14 @@ blockquote {
 
 /* Mobile Responsive */
 @media (max-width: 600px) {
+    .hero-content {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        box-sizing: border-box;
+    }
     .hero-content h1 {
         font-size: 1.8rem;
     }
