@@ -128,7 +128,6 @@ footer {
     text-align: center;
     }
 
-
     .story-photo {
         width: 100%; /* takes full available width */
         max-width: 250px; /* maintains reasonable max size */
@@ -268,7 +267,7 @@ blockquote {
 .hero-content {
     position: relative;
     max-width: 90%;
-    z-index: 2;
+    z-index: 10;
     animation: fadeInUp 1.2s ease-out forwards;
     opacity: 0;
     transform: translateY(30px);
