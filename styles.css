@@ -240,18 +240,28 @@ blockquote {
     justify-content: center;
     text-align: center;
     color: #fff;
-    padding: 0 20px;
     box-sizing: border-box;
 }
 
-.hero-video {
+/* Container for video and overlay */
+.hero-media-container {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.hero-video {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .hero-overlay {
@@ -260,19 +270,20 @@ blockquote {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(58, 45, 40, 0.3); /* soft earth-tone filter */
-    z-index: 0;
+    background: rgba(58, 45, 40, 0.3);
+    z-index: 1;
 }
 
+/* Text content stays on top */
 .hero-content {
     position: relative;
-    max-width: 90%;
     z-index: 10;
+    padding: 0 20px;
+    max-width: 90%;
     animation: fadeInUp 1.2s ease-out forwards;
     opacity: 0;
     transform: translateY(30px);
     text-align: center;
-    margin: 0 auto;
 }
 
 /* Hero Animation */
