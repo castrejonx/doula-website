@@ -5,6 +5,12 @@
     padding: 0;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }  
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.8;
@@ -120,12 +126,21 @@ footer {
         padding: 15px;
     }
 
+    .site-header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 20;
+        background: transparent; /* transparent or solid */
+    }
+      
     /* My Story responsive layout */
     .story-section,
     .story-section.reverse {
-    flex-direction: column !important;
-    align-items: center;
-    text-align: center;
+        flex-direction: column !important;
+        align-items: center;
+        text-align: center;
     }
 
     .story-photo {
@@ -241,6 +256,8 @@ blockquote {
     text-align: center;
     color: #fff;
     box-sizing: border-box;
+    margin-top: 0;       /* ← important */
+    padding-top: 0;      /* ← optional fallback */
 }
 
 /* Container for video and overlay */
