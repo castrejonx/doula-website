@@ -1,7 +1,6 @@
 // script.js
-
 document.addEventListener('DOMContentLoaded', () => {
-    const animatedElements = document.querySelectorAll('section, .story-section, .hero-content');
+    const animatedElements = document.querySelectorAll('.animate-on-scroll');
 
     const observerOptions = {
         root: null,
@@ -13,13 +12,13 @@ document.addEventListener('DOMContentLoaded', () => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('visible');
-                observer.unobserve(entry.target); // triggers animation only once
+                observer.unobserve(entry.target); // only animate once
             }
         });
     }, observerOptions);
 
-    animatedElements.forEach(element => {
-        element.classList.add('hidden');
-        observer.observe(element);
+    animatedElements.forEach(el => {
+        el.classList.add('hidden');
+        observer.observe(el);
     });
 });
