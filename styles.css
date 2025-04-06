@@ -127,14 +127,22 @@ footer {
     }
 
     .site-header {
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         width: 100%;
-        z-index: 20;
-        background: transparent; /* transparent or solid */
+        background-color: #D1C7BC; /* soft taupe background */
+        color: #FFFFFF;
+        z-index: 1000;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     }
-      
+
+    .hero-section {
+        margin-top: 100px; /* Adjust based on header height */
+    }
+    
     /* My Story responsive layout */
     .story-section,
     .story-section.reverse {
