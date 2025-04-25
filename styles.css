@@ -278,11 +278,11 @@ blockquote {
 
 .hero-video {
     width: 100%;
-    height: 100%;
+    height: calc(100% - 100px); /* adjust height so it fits nicely */
     object-fit: cover;
     z-index: -1;
     position: absolute;
-    top: 0;
+    top: 100px; /* move video down to clear header */
     left: 0;
 }
 
