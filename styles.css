@@ -261,7 +261,7 @@ blockquote {
     border-radius: 12px;
     box-sizing: border-box;
     margin-top: 0;       /* ← important */
-    padding-top: 0;      /* ← optional fallback */
+    padding-top: 100px; /* Adjust based on header height */
 }
 
 /* Container for video and overlay */
