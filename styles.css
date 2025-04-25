@@ -253,6 +253,7 @@ blockquote {
     width: 100%;
     height: 100vh;
     overflow: hidden;
+    margin-top: 100px; /* match your header height */
     display: flex;
     align-items: center;
     justify-content: center;
