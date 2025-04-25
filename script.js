@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const observerOptions = {
         root: null,
-        threshold: 0.15,
+        threshold: 0.05, /* lower threshold (from 0.15) means it triggers earlier */
         rootMargin: "0px"
     };
 

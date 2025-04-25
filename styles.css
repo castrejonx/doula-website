@@ -164,7 +164,8 @@ footer {
     }
 
     .story-text {
-        width: 100%;
+        /* width: 100%; */ /* removed to allow for flexbox alignment */
+        margin: 10px 5%;
     }
 
     blockquote {
