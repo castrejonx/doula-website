@@ -260,8 +260,7 @@ blockquote {
     color: #fff;
     border-radius: 12px;
     box-sizing: border-box;
-    margin-top: 0;       /* ← important */
-    padding-top: 100px; /* Adjust based on header height */
+    background-color: #D1C7BC; /* optional fallback background */
 }
 
 /* Container for video and overlay */
@@ -271,19 +270,17 @@ blockquote {
     left: 0;
     width: 100%;
     height: 100%;
-    border-radius: 12px;
-    overflow: hidden;
     z-index: 0;
+    border-radius: 12px;
 }
 
 .hero-video {
-    width: 100%;
-    height: calc(100% - 100px); /* adjust height so it fits nicely */
-    object-fit: cover;
-    z-index: -1;
     position: absolute;
-    top: 100px; /* move video down to clear header */
+    top: 0;
     left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .hero-overlay {
