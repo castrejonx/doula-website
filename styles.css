@@ -42,10 +42,10 @@ body::before {
     background-color: #D1C7BC; /* soft taupe background */
     color: #FFFFFF;
     z-index: 1000;
-    transition: all 0.4s ease;
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
 }
 
 .header-content {
@@ -61,10 +61,14 @@ body::before {
     transition: all 0.4s ease;
 }
 
+.logo-name-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .business-name {
-    flex-grow: 1;
-    text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     opacity: 1;
     transition: all 0.4s ease;
 }
@@ -87,8 +91,7 @@ nav ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 10px;
+    gap: 20px;
 }
 
 nav ul li a {
